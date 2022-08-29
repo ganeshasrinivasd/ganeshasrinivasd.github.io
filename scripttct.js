@@ -42,7 +42,7 @@ const winFunction = (letter) => {
 
 const drawFunction = () => {
   disable_button();
-  msgRef.innerHTML = "Well Played, Better Luck Next Time";
+  msgRef.innerHTML = "DRAW : Well Played, Better Luck Next Time";
 };
 
 newgameBtn.addEventListener("click", () => {
